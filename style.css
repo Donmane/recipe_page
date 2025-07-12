@@ -1,3 +1,83 @@
 body{
     background-color: #f3e5d8 ; 
+    padding: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.board{
+    border: 1px solid transparent;
+    width: 50vw;
+    margin-inline: auto;
+    height: fit-content;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+img{
+    width: 50vw;
+    height: 30vh;
+    border-radius: 20px;
+}
+.para{
+    color: #a6a7a2;
+    font-size: 0.8rem;
+}
+.prep{
+    border: 1px solid transparent;
+    height: fit-content;
+    padding: 9px;
+    padding-top: 0px;
+    background-color: #fff7fc;
+    border-radius: 10px;
+}
+.prep_time{
+    color: #ab8094;
+}
+.list_o{
+    margin-left: -20px;
+    
+}
+.span_o{
+    margin-left: 40px;
+    font-weight: 700;
+    padding: 5px;
+}
+.list_I{
+    padding-bottom: 9px;
+    font-size: 0.9rem;
+}
+.ingredient{
+    border: 1px solid transparent;
+    padding: 9px;
+    padding-top: 0px;
+    height: fit-content;
+}
+.ing{
+    color: #6e4d44;
+}
+.list_q{
+    margin-left: -20px;
+    font-size: 0.9rem;
+}
+.list_t{
+padding: 5px;
+}
+.instructions{
+    border: 1px solid transparent;
+    padding: 9px;
+    padding-top: 0px;
+    height: fit-content;
+
+}
+.last_one ::marker{
+    color: #755d54;
+    font-weight: 700;
+}
+.last_span{
+    font-weight: 700;
+    color: #7b7977;
+}
+.last_li{
+    margin-left: -20px;
+    line-height: 1.3rem;
+    padding: 10px;
 }
