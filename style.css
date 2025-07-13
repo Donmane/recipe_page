@@ -81,3 +81,27 @@ padding: 5px;
     line-height: 1.3rem;
     padding: 10px;
 }
+@media (max-width : 768px) {
+body{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    width: fit-content;
+    font-size: 0.95rem;
+    
+    }
+    .board{
+    width: fit-content;
+    }    
+    img{
+        width: 100%;
+        max-width: 100%
+        
+    }
+    h1{font-size: 1.75rem;}
+    h2,h3{
+        font-size: 1.25rem;
+    }
+    p{font-size: 0.95rem;}
+    
+    }
